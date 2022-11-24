@@ -20,7 +20,7 @@
     <!-- 이부분 추가하는거 잊지 말고 -->
     <script src="./script/prison.js" defer></script>
     <!-- edit 1 begin -->
-    <title>손우성교수님_이현서_201920271</title>
+    <title>PROTHE:완벽한 쇼핑</title>
     <!-- edit 1 end -->
   </head>
   <body>
@@ -31,12 +31,12 @@
           <div class="profile__wrap">
             <div class="profile__title">
               <!-- edit 2 begin -->
-              완벽한 쇼핑
+              PROTHE:완벽한 쇼핑
               <!-- edit 2 end -->
             </div>
             <div class="profile__name">
               <!-- edit 3 begin -->
-              이현서_201920271
+              인터랙션_손우성 교수님
               <!-- edit 3 end -->
             </div>
           </div>
@@ -47,29 +47,30 @@
       <!-- edit 4 begin -->
       <div class="container">
         <!-- 여기 내용이 미디어섹션의 컨테이너 하위, 실제 내용 위 -->
-        <div class="prison">
-          <div id="cell1" class="cell">
-            <h6>인터넷 쇼핑의 경험이&nbsp;있습니까?</h6>
-            <a href="#cell2">Yes</a>
-          </div>
-          <div id="cell2" class="cell">
-            <h6>
-              원하는&nbsp;물건을 찾기&nbsp;위해
-              시간을&nbsp;들인&nbsp;적이&nbsp;있습니까?
-            </h6>
-            <a href="#cell3">Yes</a>
-          </div>
-          <div id="cell3" class="cell">
-            <h6>쇼핑에 실패한 경험이&nbsp;있습니까?</h6>
-            <a id="lastBtn" href="#cell4">Yes</a>
-          </div>
-          <div id="cell4" class="cell">
-            <h5>PROTHE</h5>
-            <br />
-            <p>scroll down</p>
+        <div class="custom-viewport" data-idx="0">
+          <div class="custom-track">
+            <div id="custom-cell-1" class="custom-cell">
+              <h6>인터넷 쇼핑의 경험이&nbsp;있습니까?</h6>
+              <span class="btn" id="btn1" onclick="func1()">Yes</span>
+            </div>
+            <div id="custom-cell-2" class="custom-cell">
+              <h6>
+                원하는&nbsp;물건을 찾기&nbsp;위해
+                시간을&nbsp;들인&nbsp;적이&nbsp;있습니까?
+              </h6>
+              <span class="btn" id="btn2" onclick="func2()">Yes</span>
+            </div>
+            <div id="custom-cell-3" class="custom-cell">
+              <h6>쇼핑에 실패한 경험이&nbsp;있습니까?</h6>
+              <span class="btn" id="btn3" onclick="func3()">Yes</span>
+            </div>
+            <div id="custom-cell-4" class="custom-cell">
+              <h5>PROTHE</h5>
+              <br />
+              <p>scroll down</p>
+            </div>
           </div>
         </div>
-        <!-- 여기까지 -->
 
         <lottie-player src="imgs/title.json" loop autoplay></lottie-player>
 
@@ -123,36 +124,6 @@
         <!-- example of image end -->
       </div>
       <!-- edit 4 end -->
-    </div>
-    <div class="section section--type-footer">
-      <div class="container">
-        <div class="designerInfo">
-          <div class="profile">
-            <div class="profile__pic"></div>
-            <div class="profile__wrap">
-              <div class="profile__name">
-                <!-- edit 4 begin -->
-                이현서_201920271
-                <!-- edit 4 end -->
-              </div>
-            </div>
-          </div>
-          <div class="otherWorks">
-            <div class="work">
-              <div class="work__wrap">
-                <div class="work__title">기억저장소</div>
-                <div class="work__class">브랜드 디자인</div>
-              </div>
-            </div>
-            <div class="work">
-              <div class="work__wrap">
-                <div class="work__title">완벽한 쇼핑</div>
-                <div class="work__class">인터랙션 디자인</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </body>
 </html>

@@ -1,7 +1,7 @@
 /* stylelint-disable no-descending-specificity */
 /* stylelint-disable no-duplicate-selectors */
 body {
-  background-color: #1c1b1d;
+  background-color: #000000;
 }
 
 .container {
@@ -34,7 +34,8 @@ body {
 .section:last-of-type > .section__bg {
   grid-row: 1 / span 1;
 }
-.section--type-text, .section--type-media {
+.section--type-text,
+.section--type-media {
   background-color: #fff;
 }
 .section--type-text {
@@ -69,7 +70,8 @@ body {
   align-self: center;
   height: auto;
 }
-.section--type-header > .container, .section--type-footer > .container {
+.section--type-header > .container,
+.section--type-footer > .container {
   align-items: stretch;
   padding-inline: 0;
 }
@@ -189,7 +191,7 @@ body {
   .section--type-text > .container {
     row-gap: 1rem;
     -moz-column-gap: 1rem;
-         column-gap: 1rem;
+    column-gap: 1rem;
     padding-top: 1.5rem;
     padding-bottom: 2.125rem;
   }
@@ -199,16 +201,20 @@ body {
   .section--type-text.text-tail > .container {
     padding-bottom: 3.625rem;
   }
-  .section--type-header > .container, .section--type-footer > .container .designInfo, .section--type-footer > .container .designerInfo {
+  .section--type-header > .container,
+  .section--type-footer > .container .designInfo,
+  .section--type-footer > .container .designerInfo {
     padding-inline: 1.5rem;
   }
-  .section--type-header > .container, .section--type-footer > .container .designerInfo {
+  .section--type-header > .container,
+  .section--type-footer > .container .designerInfo {
     padding-top: 4.5rem;
   }
   .section--type-footer > .container .designerInfo .profile {
     padding-bottom: 1.5rem;
   }
-  .section--type-header > .container, .section--type-footer > .container .designerInfo {
+  .section--type-header > .container,
+  .section--type-footer > .container .designerInfo {
     padding-bottom: 3rem;
   }
   .section--type-footer > .container .designInfo {
@@ -216,7 +222,7 @@ body {
   }
   .section--type-footer > .container .designerInfo .otherWorks {
     -moz-column-gap: 1rem;
-         column-gap: 1rem;
+    column-gap: 1rem;
   }
   .section--type-footer > .container .designerInfo .otherWorks {
     row-gap: 1rem;
@@ -236,7 +242,7 @@ body {
   .section--type-text > .container {
     row-gap: 1rem;
     -moz-column-gap: 1rem;
-         column-gap: 1rem;
+    column-gap: 1rem;
     padding-top: 1.5rem;
     padding-bottom: 2.125rem;
   }
@@ -246,16 +252,20 @@ body {
   .section--type-text.text-tail > .container {
     padding-bottom: 3.625rem;
   }
-  .section--type-header > .container, .section--type-footer > .container .designInfo, .section--type-footer > .container .designerInfo {
+  .section--type-header > .container,
+  .section--type-footer > .container .designInfo,
+  .section--type-footer > .container .designerInfo {
     padding-inline: 1.5rem;
   }
-  .section--type-header > .container, .section--type-footer > .container .designerInfo {
+  .section--type-header > .container,
+  .section--type-footer > .container .designerInfo {
     padding-top: 4.5rem;
   }
   .section--type-footer > .container .designerInfo .profile {
     padding-bottom: 1.5rem;
   }
-  .section--type-header > .container, .section--type-footer > .container .designerInfo {
+  .section--type-header > .container,
+  .section--type-footer > .container .designerInfo {
     padding-bottom: 3rem;
   }
   .section--type-footer > .container .designInfo {
@@ -263,7 +273,7 @@ body {
   }
   .section--type-footer > .container .designerInfo .otherWorks {
     -moz-column-gap: 1rem;
-         column-gap: 1rem;
+    column-gap: 1rem;
   }
   .section--type-footer > .container .designerInfo .otherWorks {
     row-gap: 1rem;
@@ -283,7 +293,7 @@ body {
   .section--type-text > .container {
     row-gap: 1.5rem;
     -moz-column-gap: 1.5rem;
-         column-gap: 1.5rem;
+    column-gap: 1.5rem;
     padding-top: 2.25rem;
     padding-bottom: 2.875rem;
   }
@@ -293,16 +303,20 @@ body {
   .section--type-text.text-tail > .container {
     padding-bottom: 5.125rem;
   }
-  .section--type-header > .container, .section--type-footer > .container .designInfo, .section--type-footer > .container .designerInfo {
+  .section--type-header > .container,
+  .section--type-footer > .container .designInfo,
+  .section--type-footer > .container .designerInfo {
     padding-inline: 2.25rem;
   }
-  .section--type-header > .container, .section--type-footer > .container .designerInfo {
+  .section--type-header > .container,
+  .section--type-footer > .container .designerInfo {
     padding-top: 6.75rem;
   }
   .section--type-footer > .container .designerInfo .profile {
     padding-bottom: 2.25rem;
   }
-  .section--type-header > .container, .section--type-footer > .container .designerInfo {
+  .section--type-header > .container,
+  .section--type-footer > .container .designerInfo {
     padding-bottom: 4.5rem;
   }
   .section--type-footer > .container .designInfo {
@@ -310,7 +324,7 @@ body {
   }
   .section--type-footer > .container .designerInfo .otherWorks {
     -moz-column-gap: 1.5rem;
-         column-gap: 1.5rem;
+    column-gap: 1.5rem;
   }
   .section--type-footer > .container .designerInfo .otherWorks {
     row-gap: 1.5rem;
@@ -330,7 +344,7 @@ body {
   .section--type-text > .container {
     row-gap: 1.5rem;
     -moz-column-gap: 1.5rem;
-         column-gap: 1.5rem;
+    column-gap: 1.5rem;
     padding-top: 2.25rem;
     padding-bottom: 2.875rem;
   }
@@ -340,16 +354,20 @@ body {
   .section--type-text.text-tail > .container {
     padding-bottom: 5.125rem;
   }
-  .section--type-header > .container, .section--type-footer > .container .designInfo, .section--type-footer > .container .designerInfo {
+  .section--type-header > .container,
+  .section--type-footer > .container .designInfo,
+  .section--type-footer > .container .designerInfo {
     padding-inline: min(4.1666666667%, 3.75rem);
   }
-  .section--type-header > .container, .section--type-footer > .container .designerInfo {
+  .section--type-header > .container,
+  .section--type-footer > .container .designerInfo {
     padding-top: 6.75rem;
   }
   .section--type-footer > .container .designerInfo .profile {
     padding-bottom: 2.25rem;
   }
-  .section--type-header > .container, .section--type-footer > .container .designerInfo {
+  .section--type-header > .container,
+  .section--type-footer > .container .designerInfo {
     padding-bottom: 4.5rem;
   }
   .section--type-footer > .container .designInfo {
@@ -357,7 +375,7 @@ body {
   }
   .section--type-footer > .container .designerInfo .otherWorks {
     -moz-column-gap: 1.5rem;
-         column-gap: 1.5rem;
+    column-gap: 1.5rem;
   }
   .section--type-footer > .container .designerInfo .otherWorks {
     row-gap: 1.5rem;
@@ -377,7 +395,7 @@ body {
   .section--type-text > .container {
     row-gap: 1.5rem;
     -moz-column-gap: 1.5rem;
-         column-gap: 1.5rem;
+    column-gap: 1.5rem;
     padding-top: 2.25rem;
     padding-bottom: 2.875rem;
   }
@@ -387,16 +405,20 @@ body {
   .section--type-text.text-tail > .container {
     padding-bottom: 5.125rem;
   }
-  .section--type-header > .container, .section--type-footer > .container .designInfo, .section--type-footer > .container .designerInfo {
+  .section--type-header > .container,
+  .section--type-footer > .container .designInfo,
+  .section--type-footer > .container .designerInfo {
     padding-inline: 4.1666666667%;
   }
-  .section--type-header > .container, .section--type-footer > .container .designerInfo {
+  .section--type-header > .container,
+  .section--type-footer > .container .designerInfo {
     padding-top: 6.75rem;
   }
   .section--type-footer > .container .designerInfo .profile {
     padding-bottom: 2.25rem;
   }
-  .section--type-header > .container, .section--type-footer > .container .designerInfo {
+  .section--type-header > .container,
+  .section--type-footer > .container .designerInfo {
     padding-bottom: 4.5rem;
   }
   .section--type-footer > .container .designInfo {
@@ -404,7 +426,7 @@ body {
   }
   .section--type-footer > .container .designerInfo .otherWorks {
     -moz-column-gap: 1.5rem;
-         column-gap: 1.5rem;
+    column-gap: 1.5rem;
   }
   .section--type-footer > .container .designerInfo .otherWorks {
     row-gap: 1.5rem;
@@ -424,7 +446,7 @@ body {
   .section--type-text > .container {
     row-gap: 1.5rem;
     -moz-column-gap: 1.5rem;
-         column-gap: 1.5rem;
+    column-gap: 1.5rem;
     padding-top: 2.25rem;
     padding-bottom: 2.875rem;
   }
@@ -434,16 +456,20 @@ body {
   .section--type-text.text-tail > .container {
     padding-bottom: 5.125rem;
   }
-  .section--type-header > .container, .section--type-footer > .container .designInfo, .section--type-footer > .container .designerInfo {
+  .section--type-header > .container,
+  .section--type-footer > .container .designInfo,
+  .section--type-footer > .container .designerInfo {
     padding-inline: 3.75rem;
   }
-  .section--type-header > .container, .section--type-footer > .container .designerInfo {
+  .section--type-header > .container,
+  .section--type-footer > .container .designerInfo {
     padding-top: 6.75rem;
   }
   .section--type-footer > .container .designerInfo .profile {
     padding-bottom: 2.25rem;
   }
-  .section--type-header > .container, .section--type-footer > .container .designerInfo {
+  .section--type-header > .container,
+  .section--type-footer > .container .designerInfo {
     padding-bottom: 4.5rem;
   }
   .section--type-footer > .container .designInfo {
@@ -451,7 +477,7 @@ body {
   }
   .section--type-footer > .container .designerInfo .otherWorks {
     -moz-column-gap: 1.5rem;
-         column-gap: 1.5rem;
+    column-gap: 1.5rem;
   }
   .section--type-footer > .container .designerInfo .otherWorks {
     row-gap: 1.5rem;
@@ -464,9 +490,9 @@ body {
     line-height: 1.75rem;
   }
   .font-body-1-dense,
-.section--type-header > .container .profile,
-.section--type-footer > .container .designerInfo .profile,
-.profile__title {
+  .section--type-header > .container .profile,
+  .section--type-footer > .container .designerInfo .profile,
+  .profile__title {
     font-size: 1.125rem;
     font-weight: 500;
     line-height: 1.5rem;
@@ -477,19 +503,19 @@ body {
     line-height: 1.625rem;
   }
   .font-body-2-dense,
-.profile__name {
+  .profile__name {
     font-size: 1rem;
     font-weight: 500;
     line-height: 1.25rem;
   }
   .font-body-3,
-.work {
+  .work {
     font-size: 0.875rem;
     font-weight: 500;
     line-height: 1.375rem;
   }
   .font-body-3-dense,
-.profile__quote {
+  .profile__quote {
     font-size: 0.875rem;
     font-weight: 500;
     line-height: 1.125rem;
@@ -520,7 +546,7 @@ body {
     line-height: 2.25rem;
   }
   .font-heading-6,
-.section--type-footer > .container .designInfo {
+  .section--type-footer > .container .designInfo {
     font-size: 1.375rem;
     font-weight: 700;
     line-height: 1.75rem;
@@ -543,9 +569,9 @@ body {
     line-height: 2rem;
   }
   .font-body-1-dense,
-.section--type-header > .container .profile,
-.section--type-footer > .container .designerInfo .profile,
-.profile__title {
+  .section--type-header > .container .profile,
+  .section--type-footer > .container .designerInfo .profile,
+  .profile__title {
     font-size: 1.25rem;
     font-weight: 500;
     line-height: 1.625rem;
@@ -556,19 +582,19 @@ body {
     line-height: 1.75rem;
   }
   .font-body-2-dense,
-.profile__name {
+  .profile__name {
     font-size: 1.125rem;
     font-weight: 500;
     line-height: 1.5rem;
   }
   .font-body-3,
-.work {
+  .work {
     font-size: 1rem;
     font-weight: 500;
     line-height: 1.625rem;
   }
   .font-body-3-dense,
-.profile__quote {
+  .profile__quote {
     font-size: 1rem;
     font-weight: 500;
     line-height: 1.25rem;
@@ -599,7 +625,7 @@ body {
     line-height: 2.875rem;
   }
   .font-heading-6,
-.section--type-footer > .container .designInfo {
+  .section--type-footer > .container .designInfo {
     font-size: 1.75rem;
     font-weight: 700;
     line-height: 2.25rem;
@@ -617,9 +643,9 @@ body {
     line-height: 2.25rem;
   }
   .font-body-1-dense,
-.section--type-header > .container .profile,
-.section--type-footer > .container .designerInfo .profile,
-.profile__title {
+  .section--type-header > .container .profile,
+  .section--type-footer > .container .designerInfo .profile,
+  .profile__title {
     font-size: 1.375rem;
     font-weight: 500;
     line-height: 1.75rem;
@@ -630,19 +656,19 @@ body {
     line-height: 2rem;
   }
   .font-body-2-dense,
-.profile__name {
+  .profile__name {
     font-size: 1.25rem;
     font-weight: 500;
     line-height: 1.625rem;
   }
   .font-body-3,
-.work {
+  .work {
     font-size: 1.125rem;
     font-weight: 500;
     line-height: 1.75rem;
   }
   .font-body-3-dense,
-.profile__quote {
+  .profile__quote {
     font-size: 1.125rem;
     font-weight: 500;
     line-height: 1.5rem;
@@ -673,7 +699,7 @@ body {
     line-height: 3.625rem;
   }
   .font-heading-6,
-.section--type-footer > .container .designInfo {
+  .section--type-footer > .container .designInfo {
     font-size: 2.25rem;
     font-weight: 700;
     line-height: 2.875rem;

@@ -1,51 +1,20 @@
-let bodyElem = document.querySelector('body');
-let prisonSection = document.querySelector('.section.section--type-media');
-let fistCell = prisonSection.querySelector('#cell1');
-let lastCell = prisonSection.querySelector('#cell4');
+let userPost = document.querySelector('.user__post');
+let viewport = document.querySelector('.custom-viewport');
+viewport.style.position = 'sticky';
+viewport.style.top = 0;
 
-let done = false;
-
-document.addEventListener('scroll', () => {
-  if (prisonSection.getBoundingClientRect().top > 0) {
-    if (bodyElem.classList.contains('lock')) bodyElem.classList.remove('lock');
-    // fistCell.scrollIntoView({
-    //   behavior: "smooth",
-    // });
-  } else if (!done && prisonSection.getBoundingClientRect().top < 0) {
-    if (lastCell.getBoundingClientRect().top > 0) {
-      prisonSection.scrollIntoView();
-      if (!bodyElem.classList.contains('lock')) bodyElem.classList.add('lock');
-    }
-    // else if (lastCell.getBoundingClientRect().top <= 0) {
-    //   if (bodyElem.classList.contains("lock"))
-    //     bodyElem.classList.remove("lock");
-    // }
-  } else if (!!done) {
-    if (lastCell.getBoundingClientRect().top > 0) {
-      prisonSection.scrollIntoView();
-      if (!bodyElem.classList.contains('lock')) bodyElem.classList.add('lock');
-    }
-    // else if (lastCell.getBoundingClientRect().top <= 0) {
-    //   if (bodyElem.classList.contains("lock"))
-    //     bodyElem.classList.remove("lock");
-    // }
-  }
-});
-
-document.querySelectorAll('.cell a[href^="#"]').forEach((anchor) => {
-  anchor.addEventListener('click', function (evt) {
-    evt.preventDefault();
-    document.querySelector(this.getAttribute('href')).scrollIntoView({
-      behavior: 'smooth',
-    });
-  });
-});
-
-let lockOff = () => {
-  done = true;
+function func1() {
+  viewport.dataset.idx = '1';
+  userPost.scrollIntoView({ block: 'start' });
+}
+function func2() {
+  viewport.dataset.idx = '2';
+  userPost.scrollIntoView({ block: 'start' });
+}
+function func3() {
+  viewport.dataset.idx = '3';
+  userPost.scrollIntoView({ block: 'start' });
   setTimeout(() => {
-    if (bodyElem.classList.contains('lock')) bodyElem.classList.remove('lock');
+    viewport.style.position = 'relative';
   }, 500);
-};
-
-document.getElementById('lastBtn').addEventListener('click', lockOff);
+}
